@@ -109,7 +109,7 @@ function makeDemographics(sample){
     });
 };
 
-//changing the charts when a different selection is made from the dropdown menu
+// update charts for ids
 function optionChanged(value){
     console.log(value);
     makeBar(value);
